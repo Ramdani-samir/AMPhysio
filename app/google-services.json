@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "426620744937",
+    "firebase_url": "https://amphysio-db43f.firebaseio.com",
+    "project_id": "amphysio-db43f",
+    "storage_bucket": "amphysio-db43f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426620744937:android:1db8b4951cac16503e2c78",
+        "android_client_info": {
+          "package_name": "com.example.amphysio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426620744937-ofh5ei55jtjr74qo39ubenshgo09u5po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amphysio",
+            "certificate_hash": "de891517406456617ba15f51719bf9b247ca627e"
+          }
+        },
+        {
+          "client_id": "426620744937-i1th7kvkp9ktllfp86mj3opakf2m49ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amphysio",
+            "certificate_hash": "24fa8f2662ed7c2a7f2f94f9ef129ff4c71ef80b"
+          }
+        },
+        {
+          "client_id": "426620744937-beuv9dev32nqfled9oth05i285jr6eau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcyaNEV_XB3e-kRsFVDM4UN4LNzEiWdx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426620744937-beuv9dev32nqfled9oth05i285jr6eau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

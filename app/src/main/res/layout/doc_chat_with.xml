@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#096DE9"
+        android:gravity="center|left"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/d_chat_with"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textColor="#EEE"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+<ScrollView
+    android:id="@+id/scroller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_weight="1">
+    <LinearLayout
+        android:id="@+id/d_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#EEF"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+</ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/d_message"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Votre message ici"
+        android:background="@drawable/line_shape"
+        android:gravity="center"
+        android:layout_gravity="center|left"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/d_post"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center|right"
+            android:text="send"/>
+    </LinearLayout>
+</LinearLayout>

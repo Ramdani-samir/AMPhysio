@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#096DE9"
+        android:gravity="center|left"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/d_chat_with"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Médecin"
+            android:textColor="#EEE"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scroller1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_weight="1">
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#EEF"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#FFF"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/p_like"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_hi" />
+
+        <EditText
+            android:id="@+id/p_message"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/chip_chat"
+            android:gravity="center|left"
+            android:hint="Écrire un message..."
+            android:paddingLeft="5dp"
+            android:textColor="#000"
+            android:textColorHint="#CFD8DC"
+            android:typeface="sans" />
+
+        <ImageButton
+            android:id="@+id/p_post"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_send" />
+
+    </LinearLayout>
+
+</LinearLayout>

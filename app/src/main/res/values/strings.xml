@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AMPhysio</string>
+    <string name="alert">Alerte! Il semble que La personne est tombée sur terre !</string>
+    <string name="btn_link_to_login">Déjà enregistré. Me connecter!</string>
+    <string name="btn_link_to_register">Pas un membre? Inscrivez-vous maintenant!</string>
+    <string name="edp">État de la Personne</string>
+    <string name="emo">État émotionnel</string>
+    <string name="fc">la fréquence cardiaque</string>
+    <string name="tch">Température corporelle</string>
+    <string name="action_settings">Deconnexion</string>
+    <string name="action_sign_in_short">se connecter</string>
+    <string name="comment">Inscrivez ici !.</string>
+    <string name="pass_reset">Veuillez saisir votre adresse E-mail ci-dessous, pour recevoir un lien de réinitialisation de votre mot de passe.</string>
+</resources>
