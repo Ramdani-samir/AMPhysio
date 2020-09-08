@@ -10,7 +10,7 @@ real-time firebase services and reduce coding (NoSQL).
 ---------------------------------------------------------------------------------------------------------
 # Electronic System for measuring physiological parameters
 ![schema_globale_fritzing](https://user-images.githubusercontent.com/62241965/92478973-38246180-f1e3-11ea-80ec-0bc7a4d0ffb5.png)
-<h1><u>Presentation</u></h1>
+<h1><u>Interfaces : </u></h1>
 
 # Login Screen (doctor and patient)
 these interfaces are the first thing you see when running this application, so you must authenticate with a password and an email address to access to your personal space as a doctor or a patient.
