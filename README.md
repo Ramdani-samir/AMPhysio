@@ -1,3 +1,5 @@
+![CodeQL](https://github.com/Ramdani-samir/AMPhysio/workflows/CodeQL/badge.svg?branch=master)
+
 # AMPhysio
 This project is a Platform for monitoring physiological parameters (heartbeat, temperature ...).
 It allows you to connect to the firebase server and retrieve the data saved in the realtime database.
